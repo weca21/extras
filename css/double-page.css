@@ -1,11 +1,11 @@
 /* Basic sample */
 
-body{
+/*body{
 	overflow:hidden;
 	background-color:#fcfcfc;
 	margin:0;
 	padding:0;
-}
+}*/
 
 .flipbook-viewport{
 	overflow:hidden;
@@ -21,15 +21,16 @@ body{
 }
 
 .flipbook-viewport .flipbook{
-	width:1000px;
-	height:500px;
-	left:-500px;
-	top:-200px;
+	width:1200px;
+	height:600px;
+	left:-600px;
+	top:-300px;
+
 }
 
 .flipbook-viewport .page{
-	width:500px;
-	height:500px;
+	width:600px;
+	height:600px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -67,7 +68,7 @@ body{
 }
 
 .flipbook-viewport .double{
-	width:1000px;
-	height:500px;
+	width:1200px;
+	height:600px;
 	background-size:100% 100%;
 }
