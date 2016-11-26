@@ -6,27 +6,27 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <meta name="viewport" content="width = 1050, user-scalable = no" />
-<script type="text/javascript" src="scripts/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="scripts/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/weca21/extras/master/scripts/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/weca21/extras/master/scripts/modernizr.2.5.3.min.js"></script>
 </head>
 <body>
 
 <div class="flipbook-viewport">
 	<div class="container">
 		<div class="flipbook">
-			<div class="page" style="background-image:url(pages/prof-etsgp-1.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-2.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-3.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-4.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-5.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-6.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-7.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-8.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-9.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-10.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-11.jpg)"></div>
-			<div class="double" style="background-image:url(pages/prof-etsgp-12.jpg)"></div>
-			<div class="page" style="background-image:url(pages/prof-etsgp-13.jpg)"></div>
+			<div class="page" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-1.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-2.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-3.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-4.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-5.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-6.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-7.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-8.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-9.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-10.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-11.jpg)"></div>
+			<div class="double" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-12.jpg)"></div>
+			<div class="page" style="background-image:url(https://cdn.rawgit.com/weca21/extras/master/pages/prof-etsgp-13.jpg)"></div>
 
 		</div>
 	</div>
@@ -70,9 +70,9 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['scripts/turn.min.js'],
-	nope: ['scripts/turn.html4.min.js'],
-	both: ['scripts/scissor.min.js', 'css/double-page.css'],
+	yep: [src="https://cdn.rawgit.com/weca21/extras/master/scripts/turn.min.js"],
+	nope: [src="https://cdn.rawgit.com/weca21/extras/master/scripts/turn.html4.min.js"],
+	both: [src="https://cdn.rawgit.com/weca21/extras/master/scripts/scissor.min.js", src="https://cdn.rawgit.com/weca21/extras/master/css/double-page.css"],
 	complete: loadApp
 });
 
